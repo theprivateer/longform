@@ -33,8 +33,8 @@
             "App\\": "app/"
         },
         "files": [
-            "App/Helpers/string.php",
-            "App/Helpers/site.php"
+            "app/Helpers/string.php",
+            "app/Helpers/site.php"
         ]
     },
     "autoload-dev": {
