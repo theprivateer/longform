@@ -1,0 +1,48 @@
+h1,h2,h3
+{
+  font-weight: 700;
+}
+
+.post-title
+{
+  margin-top: 0;
+
+  a
+  {
+    color: inherit;
+
+    &:hover
+    {
+      text-decoration: none;
+      color: $brand-primary;
+    }
+  }
+}
+
+.post-meta
+{
+  color: lighten($text-color, 15);
+  margin-bottom: $grid-gutter-width / 2;
+
+  a
+  {
+    color: inherit;
+  }
+
+  .media-body
+  {
+    padding-top: 3px;
+  }
+}
+
+.home-link
+{
+  margin-top: $grid-gutter-width / 2;
+  margin-bottom: 0;
+  font-size: 14px;
+
+  a
+  {
+    color: lighten($text-color, 30);
+  }
+}

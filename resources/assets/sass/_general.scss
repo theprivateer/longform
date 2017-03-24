@@ -1,0 +1,11 @@
+.site-footer
+{
+  text-align: center;
+  margin-top: $grid-gutter-width;
+  color: lighten($text-color, 15);
+
+  a
+  {
+    color: inherit;
+  }
+}
