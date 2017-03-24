@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers\Admin;
 
-use App\Image;
+use App\Images\Image;
 use App\User;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
