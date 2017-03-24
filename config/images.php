@@ -4,7 +4,7 @@ return [
 
     'upload-prefix' => 'uploads',
 
-    'processor' => 'glide', // 'default
+    'processor' => env('IMAGE_PROCESSOR', 'glide'), // 'default
 
     'processors' => [ // 'drivers'
         'glide' => [
@@ -14,9 +14,9 @@ return [
         ],
         'imgix' => [
             'class'             => \App\Images\Processors\ImgixProcessor::class,
-            'source_server'     => '',
-            'source_signature'  => '',
-            'source_prefix'     => ''
+            'source_server'     => env('IMGIX_SOURCE'),
+            'source_signature'  => env('IMGIX_SIGNATURE', ''),
+            'source_prefix'     => env('IMGIX_PREFIX', '')
         ]
     ],
 
